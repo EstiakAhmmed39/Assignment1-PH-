@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Header Part */
 header{
     background-color:#FFFFFF;
     padding-top: 0px;
@@ -23,6 +23,8 @@ nav{
     width: 139px;
 }
 nav .menu{
+    font-size: 16px;
+    font-weight: 500;
     display: flex;
     list-style: none;
     gap: 32px;
@@ -32,4 +34,26 @@ nav .btn1{
     padding: 16px;
     list-style: none;
     height: 44px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+/* Banner Part */
+#banner{
+    max-width: 1600px;
+    background: url(./image/banner.png);
+
+    align-items: center;      
+  text-align: center;
+  background-color: aqua;
+}
+#banner .banner-content{
+    padding: 115px 120px 180px;
+}
+#banner .banner-content p{
+    color: #FFFFFF;
+    font-size: 18px;
+
+}
+#banner .banner-content h1{
+    font-size: 60px;
 }
