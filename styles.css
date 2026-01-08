@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#FFFFFF;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+nav{
+    border: 1px solid red;
+    width: 80%;
+    max-width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 139px;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+nav .btn1{
+    background-color: #469165;
+    padding: 16px;
+    list-style: none;
+    height: 44px;
+}
