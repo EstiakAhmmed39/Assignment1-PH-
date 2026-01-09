@@ -46,6 +46,11 @@ nav .btn1{
     font-weight: 500;
     color: #FFFFFF;
 }
+.btn1:hover{
+    background-color: red;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
 /* Banner Part */
 #banner{
     width: 100%;
@@ -79,6 +84,11 @@ nav .btn1{
     color:#276941 ;
 
 }
+.btn2:hover{
+    background-color: aqua;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
 #banner .banner-content .button-container{
     margin-top: 32px;
     display: flex;
@@ -103,6 +113,10 @@ nav .btn1{
     color: #FFFFFF;
     font-weight: 600;
 }
+.btn3:hover{
+    background-color: red;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
 .banner-content .btn4{
       
     width: 208px;  
@@ -116,6 +130,11 @@ nav .btn1{
     color: #FFFFFF;
     font-weight: 600;
 }
+.btn4:hover{
+    background-color: darkgreen;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
 .banner-content .btn3 .btn-icon2{
     margin-left: auto;
 }
@@ -289,6 +308,10 @@ nav .btn1{
     font-weight: 600;
     margin-top: 24px;
     border-radius: 5px;
+}
+.btn5:hover{
+    background-color: red;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 .ready-container h6{
 
