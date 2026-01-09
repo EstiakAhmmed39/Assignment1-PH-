@@ -48,12 +48,13 @@ nav .btn1{
 }
 /* Banner Part */
 #banner{
+    width: 100%;
     height: 674px;
     padding-top: 100px;
     background: url(./image/banner.png);
     align-items: center;      
     text-align: center;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 #banner .banner-content{
     padding: 115px 120px 180px;
@@ -71,8 +72,8 @@ nav .btn1{
 .banner-content .btn2{
     width: 235px;
     padding: 8px 12px 8px 20px;
-   border-radius: 1000px;
-     display: inline-flex;
+    border-radius: 1000px;
+    display: inline-flex;
     align-items: center;
     font-size: medium;
     color:#276941 ;
@@ -86,7 +87,7 @@ nav .btn1{
 }
 #banner .banner-content .btn2 .btn-icon1{
  
-  margin-right: 7px;
+   margin-right: 7px;
  
 
 }
@@ -104,8 +105,8 @@ nav .btn1{
 }
 .banner-content .btn4{
       
-     width: 208px;  
-     background: none;
+    width: 208px;  
+    background: none;
     padding: 16.5px 16px 16.5px 46px ; 
     font-size: 14px;
     display: inline-flex;
@@ -128,6 +129,7 @@ nav .btn1{
     padding: 120px 0;
     display: flex;
     justify-content: center;
+    background-color: #ffffffb8;
 }
 
 #fail .fail-container {
@@ -163,7 +165,7 @@ nav .btn1{
     flex: 1;
     background: #ffffff;
     border-radius: 12px;
-    padding: 32px 24px;
+    padding: 32px;
     text-align: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
 }
@@ -171,7 +173,7 @@ nav .btn1{
 #fail .fail-card img {
     width: 56px;
     height: 56px;
-    margin-bottom: 16px;
+   
 }
 
 #fail .fail-card h2 {
@@ -189,7 +191,8 @@ nav .btn1{
 #solution{
     width: 100%;
     height: 840px;
-    margin: 120px;
+    margin: 120px ;
+    background-color: #FFFFFF;  
 }
 #solution .solution-container{
     width: 85%;
@@ -198,6 +201,7 @@ nav .btn1{
     align-items: center;
     justify-content: flex-start;
     gap: 60px;
+    margin: 120px;
 }
 #solution .solution-container .solution-img img{
     width: 600px;
@@ -210,11 +214,11 @@ nav .btn1{
 }
 .solution-container .solution-text h6{
     
-  color: #469165;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  text-align: left;
+    color: #469165;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
 }
 .solution-container .solution-text h2{
     font-weight: 700;
@@ -241,4 +245,122 @@ nav .btn1{
     width: 20px;
     height: 20px;
     margin-bottom: -5px; 
+}
+/* Ready Section */
+#ready{
+    width: 100%;
+    height: 506px;
+
+}
+#ready .ready-container{
+    background-color: #F7F6F2;
+    margin: 2px 120px 120px 120px;
+    height: 384px;
+    text-align: center;
+     padding-top: 80px;
+    
+}
+.ready-container .ready-text h2{
+    width: 1280px;
+    height: 48px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 0%;
+    font-size: 60px;
+   
+}
+.ready-container .ready-text p{
+
+    color: #627382;
+    font-weight: 400;
+    padding-top: 16px;
+}
+.ready-container  .btn5{
+
+    width: 200px;
+    background-color: #469165;   
+    padding: 16px 46px 16px 16px; 
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    height: 52px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+.ready-container h6{
+
+    color: #627382;
+    width: 1280px;
+    height: 20px;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+/* Footer part */
+#footer {
+    width: 100%;
+    background: linear-gradient(180deg, #031f2c, #021621);
+    padding: 70px 0 40px;
+    color: #ffffff;
+}
+
+.footer-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-logo img {
+    width: 110px;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+}
+
+.social-icons a img {
+    width: 18px;
+    height: 18px;
+    opacity: 0.85;
+    transition: 0.3s ease;
+}
+
+
+.footer-bottom {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-bottom hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 20px;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    opacity: 0.7;
 }
