@@ -3,16 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.font-inter{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
 /* Header Part */
 header{
     background-color:#FFFFFF;
-    padding-top: 0px;
+    padding-top: 10px;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
 nav{
-    border: 1px solid red;
-    width: 80%;
+    /* border: 1px solid red; */
+    width: 85%;
     max-width: 1360px;
     margin: 0px auto;
     display: flex;
@@ -29,22 +33,27 @@ nav .menu{
     list-style: none;
     gap: 32px;
 }
+nav .menu a{
+    text-decoration: none;
+    color: #000000;
+}
 nav .btn1{
     background-color: #469165;
     padding: 16px;
     list-style: none;
-    height: 44px;
+    /* height: 44px; */
     border-radius: 5px;
     font-weight: 500;
+    color: #FFFFFF;
 }
 /* Banner Part */
 #banner{
-    max-width: 1600px;
+    height: 674px;
+    padding-top: 100px;
     background: url(./image/banner.png);
-
     align-items: center;      
-  text-align: center;
-  background-color: aqua;
+    text-align: center;
+   background-repeat: no-repeat;
 }
 #banner .banner-content{
     padding: 115px 120px 180px;
@@ -52,8 +61,129 @@ nav .btn1{
 #banner .banner-content p{
     color: #FFFFFF;
     font-size: 18px;
+    text-align: center;
+    padding-top: 16px;
 
 }
 #banner .banner-content h1{
     font-size: 60px;
+}
+.banner-content .btn2{
+    width: 235px;
+    padding: 8px 12px 8px 20px;
+   border-radius: 1000px;
+     display: inline-flex;
+    align-items: center;
+    font-size: medium;
+    color:#276941 ;
+
+}
+#banner .banner-content .button-container{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+#banner .banner-content .btn2 .btn-icon1{
+ 
+  margin-right: 7px;
+ 
+
+}
+ .banner-content .btn3{
+    width: 250px;
+    background-color: #469165;   
+    padding: 16px 46px 16px 16px; 
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    height: 52px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.banner-content .btn4{
+      
+     width: 208px;  
+     background: none;
+    padding: 16.5px 16px 16.5px 46px ; 
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    height: 52px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.banner-content .btn3 .btn-icon2{
+    margin-left: auto;
+}
+.banner-content .btn4 .btn-icon3{
+    margin-left: auto;
+}
+
+/* fail part */
+ #fail {
+    width: 100%;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#fail .fail-container {
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+/* HEADING */
+#fail .fail-heading {
+    text-align: center;
+}
+
+#fail .fail-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#fail .fail-heading p {
+    font-size: 16px;
+    color: #627382;
+    margin-top: 8px;
+}
+
+/* CARD GRID */
+#fail .fail-box {
+    display: flex;
+    gap: 24px;
+}
+
+/* CARD */
+#fail .fail-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 32px 24px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+#fail .fail-card img {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+#fail .fail-card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#fail .fail-card p {
+    font-size: 14px;
+    color: #627382;
+    line-height: 1.6;
 }
